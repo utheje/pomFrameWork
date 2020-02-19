@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation test Report]">
+  <listeners>
+    <listener class-name="com.uthej.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="IPhone Price Comaparator (failed)">
+    <classes>
+      <class name="com.uthej.testcases.IphoneSearch">
+        <methods>
+          <include name="setUp"/>
+          <include name="getPrice"/>
+        </methods>
+      </class> <!-- com.uthej.testcases.IphoneSearch -->
+    </classes>
+  </test> <!-- IPhone Price Comaparator (failed) -->
+</suite> <!-- Failed suite [Automation test Report] -->

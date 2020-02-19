@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation test Report">
+
+	<listeners>
+		<listener class-name="com.uthej.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="IPhone Price Comaparator ">
+		<classes>
+			<class name="com.uthej.testcases.IphoneSearch"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29352" started-at="2020-02-19T13:53:28Z" finished-at="2020-02-19T13:53:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29352" started-at="2020-02-19T13:53:28Z" finished-at="2020-02-19T13:53:57Z">
+      <class name="com.uthej.testcases.IphoneSearch">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uthej.testcases.IphoneSearch@61832929]" name="setUp" is-config="true" duration-ms="10434" started-at="2020-02-19T19:23:28Z" finished-at="2020-02-19T19:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageAmazon()[pri:1, instance:com.uthej.testcases.IphoneSearch@61832929]" name="homePageAmazon" duration-ms="74" started-at="2020-02-19T19:23:39Z" finished-at="2020-02-19T19:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageAmazon -->
+        <test-method status="PASS" signature="enterNameSearchBox()[pri:2, instance:com.uthej.testcases.IphoneSearch@61832929]" name="enterNameSearchBox" duration-ms="1038" started-at="2020-02-19T19:23:39Z" finished-at="2020-02-19T19:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterNameSearchBox -->
+        <test-method status="PASS" signature="clicksearchbutton()[pri:3, instance:com.uthej.testcases.IphoneSearch@61832929]" name="clicksearchbutton" duration-ms="3008" started-at="2020-02-19T19:23:40Z" finished-at="2020-02-19T19:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicksearchbutton -->
+        <test-method status="PASS" signature="getPrice()[pri:4, instance:com.uthej.testcases.IphoneSearch@61832929]" name="getPrice" duration-ms="4332" started-at="2020-02-19T19:23:43Z" finished-at="2020-02-19T19:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPrice -->
+        <test-method status="PASS" signature="homePageFlipkart()[pri:5, instance:com.uthej.testcases.IphoneSearch@61832929]" name="homePageFlipkart" duration-ms="6086" started-at="2020-02-19T19:23:47Z" finished-at="2020-02-19T19:23:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageFlipkart -->
+        <test-method status="PASS" signature="enterNameSearchBoxflipkart()[pri:6, instance:com.uthej.testcases.IphoneSearch@61832929]" name="enterNameSearchBoxflipkart" duration-ms="643" started-at="2020-02-19T19:23:53Z" finished-at="2020-02-19T19:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterNameSearchBoxflipkart -->
+        <test-method status="PASS" signature="clicksearchbuttonFlipkart()[pri:7, instance:com.uthej.testcases.IphoneSearch@61832929]" name="clicksearchbuttonFlipkart" duration-ms="1939" started-at="2020-02-19T19:23:54Z" finished-at="2020-02-19T19:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicksearchbuttonFlipkart -->
+        <test-method status="PASS" signature="priceflipkart()[pri:8, instance:com.uthej.testcases.IphoneSearch@61832929]" name="priceflipkart" duration-ms="835" started-at="2020-02-19T19:23:56Z" finished-at="2020-02-19T19:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceflipkart -->
+        <test-method status="PASS" signature="decider()[pri:9, instance:com.uthej.testcases.IphoneSearch@61832929]" name="decider" duration-ms="2" started-at="2020-02-19T19:23:57Z" finished-at="2020-02-19T19:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- decider -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uthej.testcases.IphoneSearch@61832929]" name="tearDown" is-config="true" duration-ms="909" started-at="2020-02-19T19:23:57Z" finished-at="2020-02-19T19:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.uthej.testcases.IphoneSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
