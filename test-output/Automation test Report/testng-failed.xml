@@ -6,12 +6,12 @@
   </listeners>
   <test name="IPhone Price Comaparator (failed)">
     <classes>
-      <class name="com.uthej.testcases.IphoneSearch">
+      <class name="com.uthej.testcases.Tripadvisor">
         <methods>
           <include name="setUp"/>
-          <include name="getPrice"/>
+          <include name="homepageTripAdvisor"/>
         </methods>
-      </class> <!-- com.uthej.testcases.IphoneSearch -->
+      </class> <!-- com.uthej.testcases.Tripadvisor -->
     </classes>
   </test> <!-- IPhone Price Comaparator (failed) -->
 </suite> <!-- Failed suite [Automation test Report] -->

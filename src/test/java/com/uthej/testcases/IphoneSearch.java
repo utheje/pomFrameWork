@@ -1,3 +1,4 @@
+//author Uthej.E 
 package com.uthej.testcases;
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
@@ -31,7 +32,6 @@ public class IphoneSearch extends testbase{
 	
 	
 	public IphoneSearch(){
-//		super();
 		          
 	}
 	

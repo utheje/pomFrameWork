@@ -9,7 +9,8 @@
 
 	<test name="IPhone Price Comaparator ">
 		<classes>
-			<class name="com.uthej.testcases.IphoneSearch"></class>
+			
+			<class name="com.uthej.testcases.Tripadvisor"></class>
 		</classes>
 	</test>
 </suite>

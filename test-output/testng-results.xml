@@ -1,57 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29352" started-at="2020-02-19T13:53:28Z" finished-at="2020-02-19T13:53:57Z">
+  <suite name="Default suite" duration-ms="82886" started-at="2020-02-25T17:32:24Z" finished-at="2020-02-25T17:33:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29352" started-at="2020-02-19T13:53:28Z" finished-at="2020-02-19T13:53:57Z">
-      <class name="com.uthej.testcases.IphoneSearch">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uthej.testcases.IphoneSearch@61832929]" name="setUp" is-config="true" duration-ms="10434" started-at="2020-02-19T19:23:28Z" finished-at="2020-02-19T19:23:39Z">
+    <test name="Default test" duration-ms="82886" started-at="2020-02-25T17:32:24Z" finished-at="2020-02-25T17:33:47Z">
+      <class name="com.uthej.testcases.Tripadvisor">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uthej.testcases.Tripadvisor@5b275dab]" name="setUp" is-config="true" duration-ms="38409" started-at="2020-02-25T23:02:24Z" finished-at="2020-02-25T23:03:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homePageAmazon()[pri:1, instance:com.uthej.testcases.IphoneSearch@61832929]" name="homePageAmazon" duration-ms="74" started-at="2020-02-19T19:23:39Z" finished-at="2020-02-19T19:23:39Z">
+        <test-method status="PASS" signature="homepageTripAdvisor()[pri:1, instance:com.uthej.testcases.Tripadvisor@5b275dab]" name="homepageTripAdvisor" duration-ms="65" started-at="2020-02-25T23:03:02Z" finished-at="2020-02-25T23:03:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageAmazon -->
-        <test-method status="PASS" signature="enterNameSearchBox()[pri:2, instance:com.uthej.testcases.IphoneSearch@61832929]" name="enterNameSearchBox" duration-ms="1038" started-at="2020-02-19T19:23:39Z" finished-at="2020-02-19T19:23:40Z">
+        </test-method> <!-- homepageTripAdvisor -->
+        <test-method status="PASS" signature="enterNameSearchBox()[pri:2, instance:com.uthej.testcases.Tripadvisor@5b275dab]" name="enterNameSearchBox" duration-ms="7030" started-at="2020-02-25T23:03:02Z" finished-at="2020-02-25T23:03:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterNameSearchBox -->
-        <test-method status="PASS" signature="clicksearchbutton()[pri:3, instance:com.uthej.testcases.IphoneSearch@61832929]" name="clicksearchbutton" duration-ms="3008" started-at="2020-02-19T19:23:40Z" finished-at="2020-02-19T19:23:43Z">
+        <test-method status="PASS" signature="navigatefirst()[pri:3, instance:com.uthej.testcases.Tripadvisor@5b275dab]" name="navigatefirst" duration-ms="14121" started-at="2020-02-25T23:03:09Z" finished-at="2020-02-25T23:03:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clicksearchbutton -->
-        <test-method status="PASS" signature="getPrice()[pri:4, instance:com.uthej.testcases.IphoneSearch@61832929]" name="getPrice" duration-ms="4332" started-at="2020-02-19T19:23:43Z" finished-at="2020-02-19T19:23:47Z">
+        </test-method> <!-- navigatefirst -->
+        <test-method status="PASS" signature="Review()[pri:4, instance:com.uthej.testcases.Tripadvisor@5b275dab]" name="Review" duration-ms="469" started-at="2020-02-25T23:03:23Z" finished-at="2020-02-25T23:03:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getPrice -->
-        <test-method status="PASS" signature="homePageFlipkart()[pri:5, instance:com.uthej.testcases.IphoneSearch@61832929]" name="homePageFlipkart" duration-ms="6086" started-at="2020-02-19T19:23:47Z" finished-at="2020-02-19T19:23:53Z">
+        </test-method> <!-- Review -->
+        <test-method status="PASS" signature="rating()[pri:5, instance:com.uthej.testcases.Tripadvisor@5b275dab]" name="rating" duration-ms="16727" started-at="2020-02-25T23:03:24Z" finished-at="2020-02-25T23:03:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageFlipkart -->
-        <test-method status="PASS" signature="enterNameSearchBoxflipkart()[pri:6, instance:com.uthej.testcases.IphoneSearch@61832929]" name="enterNameSearchBoxflipkart" duration-ms="643" started-at="2020-02-19T19:23:53Z" finished-at="2020-02-19T19:23:54Z">
+        </test-method> <!-- rating -->
+        <test-method status="PASS" signature="title()[pri:6, instance:com.uthej.testcases.Tripadvisor@5b275dab]" name="title" duration-ms="5334" started-at="2020-02-25T23:03:41Z" finished-at="2020-02-25T23:03:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterNameSearchBoxflipkart -->
-        <test-method status="PASS" signature="clicksearchbuttonFlipkart()[pri:7, instance:com.uthej.testcases.IphoneSearch@61832929]" name="clicksearchbuttonFlipkart" duration-ms="1939" started-at="2020-02-19T19:23:54Z" finished-at="2020-02-19T19:23:56Z">
+        </test-method> <!-- title -->
+        <test-method status="PASS" signature="hotelrating()[pri:7, instance:com.uthej.testcases.Tripadvisor@5b275dab]" name="hotelrating" duration-ms="351" started-at="2020-02-25T23:03:46Z" finished-at="2020-02-25T23:03:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clicksearchbuttonFlipkart -->
-        <test-method status="PASS" signature="priceflipkart()[pri:8, instance:com.uthej.testcases.IphoneSearch@61832929]" name="priceflipkart" duration-ms="835" started-at="2020-02-19T19:23:56Z" finished-at="2020-02-19T19:23:57Z">
+        </test-method> <!-- hotelrating -->
+        <test-method status="PASS" signature="submit()[pri:8, instance:com.uthej.testcases.Tripadvisor@5b275dab]" name="submit" duration-ms="329" started-at="2020-02-25T23:03:46Z" finished-at="2020-02-25T23:03:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- priceflipkart -->
-        <test-method status="PASS" signature="decider()[pri:9, instance:com.uthej.testcases.IphoneSearch@61832929]" name="decider" duration-ms="2" started-at="2020-02-19T19:23:57Z" finished-at="2020-02-19T19:23:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- decider -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uthej.testcases.IphoneSearch@61832929]" name="tearDown" is-config="true" duration-ms="909" started-at="2020-02-19T19:23:57Z" finished-at="2020-02-19T19:23:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.uthej.testcases.IphoneSearch -->
+        </test-method> <!-- submit -->
+      </class> <!-- com.uthej.testcases.Tripadvisor -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
